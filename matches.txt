@@ -1,0 +1,23 @@
+SLBenfica   3-0     Beira-Mar	(Liga Bwin)
+Man City    3-2     QPR		(Premier League)
+FCPorto     2-1     SLBenfica	(Liga Portuguesa)
+SLBenfica   2-0     Olhanense	(Liga Portuguesa)
+Chelsea     2-1     SLBenfica	(Liga Europa)
+França      0-1     Portugal	(Euro 2016)
+Caldas SC   1-1     Académica	(Taça Portugal)
+CDAves      1-0     Caldas SC	(Taça Portugal)
+Caldas SC   1-2     CDAves	(Taça Portugal)
+Portugal    1-0     Holanda	(Nations League)
+SL Benfica  1-1     Moreirense	(Liga NOS)
+
+teams (teams badges)
+result
+date
+competition
+image
+
+image carrousel
+stadium
+goalscorers (and minutes)
+squads
+managers
