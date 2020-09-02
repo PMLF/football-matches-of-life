@@ -1,0 +1,16 @@
+.MatchThumbnail {
+    border:solid 1px #ccc;
+    border-radius:34px;
+    background-color:rgb(0, 0, 50);
+    width:300px;
+    height:300px;
+    color:#f1f1f1;
+    font-size:0;
+    text-align:center;
+
+    img {
+        display:inline-block;
+        height:150px;
+        margin:20px 0;
+    }
+}
