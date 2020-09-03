@@ -1,16 +1,30 @@
 .MatchThumbnail {
-    border:solid 1px #ccc;
+    margin:8px;
     border-radius:34px;
-    background-color:rgb(0, 0, 50);
-    width:300px;
-    height:300px;
+    padding:10px;
+    background-color:#011533;
+    width:calc(100% - 36px);
+    height:200px;
     color:#f1f1f1;
     font-size:0;
     text-align:center;
+    position:relative;
+    -webkit-box-shadow: inset -6px -32px 57px -62px rgba(241,241,241,0.76);
+    -moz-box-shadow: inset -6px -32px 57px -62px rgba(241,241,241,0.76);
+    box-shadow: inset -6px -32px 57px -62px rgba(241,241,241,0.76);
 
     img {
+        position:relative;
         display:inline-block;
-        height:150px;
+        width:50%;
         margin:20px 0;
+
+        &:first-of-type {
+            transform:translateX(10%);
+            z-index:1;
+        }
+        &:last-of-type {
+            transform:translateX(-10%);
+        }
     }
 }

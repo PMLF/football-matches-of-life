@@ -1,3 +1,21 @@
 .App {
   
+  .sidebar {
+    position:fixed;
+    overflow: scroll;
+    width:12%;
+    height:100%;
+    background-color:#000205;
+  }
+  .main {
+    position:fixed;
+    right:0;
+    width:calc(88% - 80px);
+    height:100%;
+    border-left:solid 1px #f1f1f1;
+    padding:40px;
+    background-color:#000205;
+
+    color:white;
+  }
 }

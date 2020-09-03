@@ -1,9 +1,19 @@
-p {
-    font-size:30px;
-    margin:0;
+.ResultThumbnail {
+    position:absolute;
+    bottom:0;
+    left:0;
+    z-index:2;
+    width:100%;
 
-    span {
-        font-size:50px;
-        margin:0 10px;
+    p {
+        margin:0 auto;
+        width:60%;
+        font-size:40px;
+        font-family:'Bebas Neue', cursive;
+
+        span {
+            font-size:80px;
+            margin:0 10px;
+        }
     }
 }

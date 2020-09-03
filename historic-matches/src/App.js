@@ -5,12 +5,17 @@ import MatchThumbnail from './Components/MatchThumbnail/MatchThumbnail';
 function App() {
   return (
     <div className="App">
-      <MatchThumbnail/>
-      <MatchThumbnail/>
-      <MatchThumbnail/>
-      <MatchThumbnail/>
-      <MatchThumbnail/>
-      <MatchThumbnail/>
+
+      <div className="sidebar">
+        <MatchThumbnail/>
+        <MatchThumbnail/>
+        <MatchThumbnail/>
+        <MatchThumbnail/>
+        <MatchThumbnail/>
+      </div>
+      <div className="main">
+        a
+      </div>
     </div>
   );
 }
