@@ -2,6 +2,7 @@ import React from 'react';
 import './App.scss';
 import MatchThumbnail from './Components/MatchThumbnail/MatchThumbnail';
 import SidebarArrow from './Components/SidebarArrow/SidebarArrow';
+import MatchHeader from './Components/MatchHeader/MatchHeader';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
         <SidebarArrow />
       </div>
       <div className="main">
-        a
+        <MatchHeader />
       </div>
     </div>
   );
