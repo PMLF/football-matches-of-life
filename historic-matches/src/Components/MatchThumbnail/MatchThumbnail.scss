@@ -1,17 +1,19 @@
+@import '../../scss-variables.scss';
+
 .MatchThumbnail {
     margin:8px;
     border-radius:34px;
     padding:10px;
-    background-color:#011533;
+    background-color:$dark-blue;
     width:calc(100% - 36px);
     height:200px;
-    color:#f1f1f1;
+    color:$white;
     font-size:0;
     text-align:center;
     position:relative;
-    -webkit-box-shadow: inset -6px -32px 57px -62px rgba(241,241,241,0.76);
-    -moz-box-shadow: inset -6px -32px 57px -62px rgba(241,241,241,0.76);
-    box-shadow: inset -6px -32px 57px -62px rgba(241,241,241,0.76);
+    -webkit-box-shadow: inset -6px -32px 57px -62px $grey;
+    -moz-box-shadow: inset -6px -32px 57px -62px $grey;
+    box-shadow: inset -6px -32px 57px -62px $grey;
 
     img {
         position:relative;

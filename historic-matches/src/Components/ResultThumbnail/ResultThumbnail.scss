@@ -1,3 +1,5 @@
+@import '../../scss-variables.scss';
+
 .ResultThumbnail {
     position:absolute;
     bottom:0;
@@ -9,7 +11,7 @@
         margin:0 auto;
         width:60%;
         font-size:40px;
-        font-family:'Bebas Neue', cursive;
+        font-family:$numbers;
 
         span {
             font-size:80px;
