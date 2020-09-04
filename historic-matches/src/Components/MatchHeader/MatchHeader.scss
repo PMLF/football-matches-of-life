@@ -1,15 +1,36 @@
+@import '../../scss-variables.scss';
+
 .MatchHeader {
-    background-color:red;
-    height:40%;
+    height:36%;
+    padding:80px 20% 0 20%;
+    font-size:0;
+    text-align:center;
 
     img {
-
+        height:100%;
+        display:inline-block;
+        margin:0 40px 0 0;
 
         &:last-of-type {
+            margin:0 0 0 40px;
 
         }
     }
-    div {
+    .footage {
+        background-color:$dark-blue;
+        width:120px;
+        height:80px;
+        border-radius:12px;
+        text-align:center;
+        display:inline-block;
+        -webkit-box-shadow: inset -6px -32px 57px -62px $grey;
+        -moz-box-shadow: inset -6px -32px 57px -62px $grey;
+        box-shadow: inset -6px -32px 57px -62px $grey;
+        p {
+            font-size:20px;
+            line-height:80px;
+            margin:0 auto;
+        }
 
     }
 }
