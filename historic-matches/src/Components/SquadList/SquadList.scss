@@ -1,0 +1,48 @@
+@import '../../scss-variables.scss';
+
+.SquadList {
+    width:20%;
+    display:inline-block;
+    margin:60px 200px 100px 0;
+    
+    &:first-of-type {
+        text-align:right;
+        margin:60px 0 100px 200px;
+    }
+    .player {
+        height:32px;
+        color:$white;
+        font-size:22px;
+
+        p {
+            display:inline-block;
+            margin:0 12px 0 0;
+            line-height:32px;
+
+            &:last-of-type {
+                margin-right:0;
+            }
+        }
+        .player-name {
+            font-family: "Roboto";
+        }
+        .player-number {
+            font-family:$numbers;
+            font-size:24px;
+        }
+        .player-icons {
+
+
+            span {
+
+            }
+        }
+        &:nth-of-type(n + 12) {
+            color:$grey;
+            font-size:18px;
+        }
+        &:nth-of-type(12) {
+            margin-top:10px;
+        }
+    }
+}

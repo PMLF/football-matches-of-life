@@ -3,6 +3,7 @@ import './App.scss';
 import MatchThumbnail from './Components/MatchThumbnail/MatchThumbnail';
 import SidebarArrow from './Components/SidebarArrow/SidebarArrow';
 import MatchHeader from './Components/MatchHeader/MatchHeader';
+import SquadList from './Components/SquadList/SquadList';
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
       </div>
       <div className="main">
         <MatchHeader />
+        <SquadList />
+        <SquadList />
+
       </div>
     </div>
   );
