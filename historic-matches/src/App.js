@@ -4,6 +4,7 @@ import MatchThumbnail from './Components/MatchThumbnail/MatchThumbnail';
 import SidebarArrow from './Components/SidebarArrow/SidebarArrow';
 import MatchHeader from './Components/MatchHeader/MatchHeader';
 import SquadList from './Components/SquadList/SquadList';
+import ResultDisplay from './Components/ResultDisplay/ResultDisplay';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <div className="main">
         <MatchHeader />
         <SquadList />
+        <ResultDisplay />
         <SquadList />
 
       </div>
