@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import "./GoalScorerList.scss";
+import Goal from "../Goal/Goal";
 
 class GoalScorerList extends Component {
 
@@ -7,8 +8,9 @@ class GoalScorerList extends Component {
     render () {
         return (
             <div className="GoalScorerList">
-                <p className="player-name"></p>
-                <p className="goal-minute"></p>
+                <Goal />
+                <Goal />
+                <Goal />
             </div>
         );
     }

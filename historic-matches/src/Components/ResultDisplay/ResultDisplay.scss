@@ -1,8 +1,35 @@
+@import '../../scss-variables.scss';
+
 .ResultDisplay {
     display: inline-block;
-    width:30%;
-    height:500px;
-    background-color:red;
+    vertical-align: top;
+    margin:60px 0;
+    width:36%;
+    height:478px;
+    border:solid 1px $white;
+    border-top:none;
+    border-bottom:none;
 
+    .result {
+        text-align:center;
+        display:inline-block;
+        font-family:$numbers;
+        width:30%;
 
+        p {
+            font-size:110px;
+            margin:0;
+            transform:translateY(-20px);
+
+            span {
+
+            }
+            .home-goals {
+                margin-right:4px;
+            }
+            .away-goals {
+                margin-left:4px;
+            }
+        }
+    }
 }

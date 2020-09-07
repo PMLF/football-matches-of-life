@@ -23,10 +23,11 @@ function App() {
       </div>
       <div className="main">
         <MatchHeader />
-        <SquadList />
-        <ResultDisplay />
-        <SquadList />
-
+        <section className="match-data">
+          <SquadList />
+          <ResultDisplay />
+          <SquadList />
+        </section>
       </div>
     </div>
   );

@@ -1,0 +1,22 @@
+@import '../../scss-variables.scss';
+
+.Goal {
+    display:flex;
+    margin:0 0 0 12px;
+    justify-content: space-between;
+    
+    p {
+        font-family: $main;
+        display:inline-block;
+        margin:4px 0;
+    }
+    .player-name {
+        
+    }
+    .goal-minute {
+
+        &:after {
+            content:"'";
+        }
+    }
+}

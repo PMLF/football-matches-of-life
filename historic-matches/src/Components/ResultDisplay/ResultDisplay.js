@@ -16,6 +16,7 @@ class ResultDisplay extends Component {
                         <span className="away-goals">0</span>
                     </p>
                 </div>
+                <GoalScorerList />
             </div>
         );
     }

@@ -1,40 +1,41 @@
 @import '../../scss-variables.scss';
 
 .SquadList {
-    width:calc(35% - 100px);
+    width:calc(32% - 40px);
     display:inline-block;
-    margin:60px 100px 100px 0;
+    margin:60px 20px 100px 0;
     
     &:first-of-type {
         text-align:right;
-        margin:60px 0 100px 100px;
+        margin:60px 0 100px 20px;
 
         .player {
             flex-direction:row-reverse;
-
+            p {
+                margin:0 12px 0 0;
+            }
         }
     }
     .player {
-        height:32px;
+        height:26px;
         color:$white;
-        font-size:22px;
+        font-size:18px;
         display:flex;
 
         p {
             display:inline-block;
-            margin:0 12px 0 0;
-            line-height:32px;
+            margin:0 0 0 12px;
+            line-height:26px;
         }
         .player-number {
             font-family:$numbers;
-            font-size:24px;
+            font-size:22px;
             width:30px;
         }
         .player-name {
             font-family: "Roboto";
         }
         .player-icons {
-
 
             img {
                 height:20px;
@@ -43,7 +44,7 @@
         }
         &:nth-of-type(n + 12) {
             color:$grey;
-            font-size:18px;
+            font-size:16px;
 
             .player-icons {
                 img {

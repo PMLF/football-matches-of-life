@@ -11,7 +11,6 @@
     .sidebar-main {
       height:calc(100% - 104px);
       overflow:scroll;
-
     }
   }
   .main {
@@ -23,8 +22,12 @@
     padding:40px;
     background-color:$bg-blue;
     overflow:scroll;
-
+    vertical-align: top;
     color:$white;
+
+    .match-data {
+      
+    }
   }
 }
 
