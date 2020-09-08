@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import "./ResultDisplay.scss";
 import GoalScorerList from "../GoalScorerList/GoalScorerList";
+import ExtraInformation from "../ExtraInformation/ExtraInformation";
 
 class ResultDisplay extends Component {
 
@@ -17,6 +18,7 @@ class ResultDisplay extends Component {
                     </p>
                 </div>
                 <GoalScorerList />
+                <ExtraInformation />
             </div>
         );
     }
