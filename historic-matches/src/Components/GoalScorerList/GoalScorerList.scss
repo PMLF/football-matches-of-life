@@ -5,18 +5,4 @@
     vertical-align:top;
     height:100px;
     width:35%;
-
-    &:last-of-type {
-        .Goal {
-            flex-direction:row-reverse;
-            margin:0 12px 0 0;
-        }
-    }
-    .Goal {
-        &:first-of-type {
-            p {
-                margin-top:0;
-            }
-        }
-    }
 }

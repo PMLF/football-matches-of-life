@@ -1,23 +1,37 @@
 @import '../../scss-variables.scss';
 
-.Goal {
-    display:flex;
-    margin:0 0 0 12px;
-    justify-content: space-between;
-    
-    p {
-        font-family: $main;
-        display:inline-block;
-        margin:4px 0;
+.GoalScorerList {
+    &:first-of-type {
+        .Goal {
+            flex-direction: row-reverse;
+            margin:0 0 0 12px;
+        }
     }
-    .player-name {
-        
-    }
-    .goal-minute {
-        margin:4px 6px;
 
-        &:after {
-            content:"'";
+    .Goal {
+        display:flex;
+        margin:0 12px 0 0;
+        justify-content: space-between;
+
+        &:first-of-type {
+            p {
+                margin-top:0;
+            }
+        }
+        p {
+            font-family: $main;
+            display:inline-block;
+            margin:4px 0;
+        }
+        .goal-minute {
+            margin:4px 6px;
+
+            &:after {
+                content:"'";
+            }
+        }
+        .player-name {
+
         }
     }
 }
