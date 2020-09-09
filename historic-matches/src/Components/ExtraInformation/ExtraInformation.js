@@ -12,8 +12,8 @@ class ExtraInformation extends Component {
                     <img src={league} alt="League logo" />
                     <p>Liga Bwin</p>
                 </section>
-                <p className="date">06 novembro de 2006</p>
                 <p className="season">2006/07</p>
+                <p className="date">06 novembro de 2006</p>
             </div>
         );
     }
