@@ -1,13 +1,11 @@
 import React, {Component} from 'react';
 import './App.scss';
-import $ from "jquery";
 import MatchThumbnail from './Components/MatchThumbnail/MatchThumbnail';
 import SidebarArrow from './Components/SidebarArrow/SidebarArrow';
 import MatchHeader from './Components/MatchHeader/MatchHeader';
 import SquadList from './Components/SquadList/SquadList';
 import ResultDisplay from './Components/ResultDisplay/ResultDisplay';
-import ScriptTag from 'react-script-tag';
-
+import matchData from './data/matches.json';
 
 class App extends Component {
   render() {
@@ -32,7 +30,9 @@ class App extends Component {
             <SquadList />
           </section>
         </div>
-        <ScriptTag type="text/javascript" src="/scripts/match.js" />
+        {
+          console.log(matchData)
+        }
       </div>
     );
   }
