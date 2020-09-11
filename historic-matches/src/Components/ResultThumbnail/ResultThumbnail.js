@@ -8,9 +8,15 @@ class ResultThumbnail extends Component {
         return (
             <div className="ResultThumbnail">
                 <p>
-                    <span>1</span>
+                    <span>
+                        { this.props.data.teams[0].goals.length }
+                    </span>
                     -
-                    <span>0</span>
+                    <span>
+                        {
+                            this.props.data.teams[1].goals ? this.props.data.teams[1].goals.length : 0
+                        }
+                    </span>
                 </p>
             </div>
         );
