@@ -15,7 +15,7 @@ class App extends Component {
           <SidebarArrow />
           <div className="sidebar-main hideScrollBar">
             {
-              rawData[0].matches.map(
+              rawData.matches.map(
                 match => <MatchThumbnail data={ match }></MatchThumbnail>
               )
             }
