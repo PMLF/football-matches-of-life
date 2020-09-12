@@ -9,7 +9,9 @@ class ResultThumbnail extends Component {
             <div className="ResultThumbnail">
                 <p>
                     <span>
-                        { this.props.data.teams[0].goals.length }
+                        {
+                            this.props.data.teams[0].goals ? this.props.data.teams[0].goals.length : 0
+                        }
                     </span>
                     -
                     <span>

@@ -5,7 +5,7 @@ import SidebarArrow from './Components/SidebarArrow/SidebarArrow';
 import MatchHeader from './Components/MatchHeader/MatchHeader';
 import SquadList from './Components/SquadList/SquadList';
 import ResultDisplay from './Components/ResultDisplay/ResultDisplay';
-import rawData from './data/matches.json';
+import {rawData} from './data/matches';
 
 class App extends Component {
   render() {
@@ -15,7 +15,7 @@ class App extends Component {
           <SidebarArrow />
           <div className="sidebar-main hideScrollBar">
             {
-              rawData.matches.map(
+              rawData[0].matches.map(
                 match => <MatchThumbnail data={ match }></MatchThumbnail>
               )
             }

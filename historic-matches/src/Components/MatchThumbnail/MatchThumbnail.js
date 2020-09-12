@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './MatchThumbnail.scss';
 import ResultThumbnail from '../ResultThumbnail/ResultThumbnail';
+import benfica from "../../images/benfica.png";
 
 class MatchThumbnail extends Component {
 
