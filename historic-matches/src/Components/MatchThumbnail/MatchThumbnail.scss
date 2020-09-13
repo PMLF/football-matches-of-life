@@ -22,12 +22,10 @@
 
         &:first-of-type {
             left:16px;
-            //transform:translateX(10%);
             z-index:1;
         }
         &:last-of-type {
             right:16px;
-            //transform:translateX(-10%);
         }
     }
 }

@@ -8,6 +8,22 @@ import ResultDisplay from './Components/ResultDisplay/ResultDisplay';
 import {rawData} from './data/matches';
 
 class App extends Component {
+
+  constructor(props) {
+    super(props);
+    this.currentMatch = rawData.matches[0]; // Initial state.
+    this.selectMatch = this.selectMatch.bind(this);
+  }
+
+  selectMatch(e) {
+    console.log("AAAA");
+    console.log(e.target);
+
+    this.setState({
+      a: "Default state"
+    });
+  }
+
   render() {
     return (
       <div className="App">
@@ -16,7 +32,7 @@ class App extends Component {
           <div className="sidebar-main hideScrollBar">
             {
               rawData.matches.map(
-                match => <MatchThumbnail data={ match }></MatchThumbnail>
+                match => <MatchThumbnail data={match} onClick={(e) => this.selectMatch(e)} ></MatchThumbnail>
               )
             }
           </div>
@@ -30,9 +46,6 @@ class App extends Component {
             <SquadList />
           </section>
         </div>
-        {
-          console.log(rawData)
-        }
       </div>
     );
   }
