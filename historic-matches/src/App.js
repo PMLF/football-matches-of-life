@@ -46,14 +46,14 @@ class App extends Component {
           <div className="sidebar-main hideScrollBar">
             {
               rawData.matches.map(
-                (match, index) => <MatchThumbnail data={match} key={index} onClick={this.sidebarScroll}></MatchThumbnail>
+                (match, index) => <MatchThumbnail data={match} key={index} onClick={this.selectMatch}></MatchThumbnail>
               )
             }
           </div>
           <SidebarArrow onClick={this.sidebarScrollDown}></SidebarArrow>
         </div>
         <div className="main">
-          <MatchHeader />
+          <MatchHeader data={this.state}></MatchHeader>
           <section className="match-data">
             <SquadList />
             <ResultDisplay />
