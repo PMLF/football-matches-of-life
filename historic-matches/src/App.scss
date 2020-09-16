@@ -8,6 +8,9 @@
     height:100%;
     background-color:$bg-blue;
 
+    .state {
+      color:white;
+    }
     .sidebar-main {
       height:calc(100% - 104px);
       overflow:scroll;
@@ -26,7 +29,7 @@
     color:$white;
 
     .match-data {
-      
+
     }
   }
 }

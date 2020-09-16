@@ -8,35 +8,49 @@ import ResultDisplay from './Components/ResultDisplay/ResultDisplay';
 import {rawData} from './data/matches';
 
 class App extends Component {
-
   constructor(props) {
     super(props);
-    this.currentMatch = rawData.matches[0]; // Initial state.
-    this.selectMatch = this.selectMatch.bind(this);
+    this.state = rawData.matches[0];
+    this.sidebarScrollUp = this.sidebarScrollUp.bind(this);
+    this.sidebarScrollDown = this.sidebarScrollDown.bind(this);
   }
 
-  selectMatch(e) {
-    console.log("AAAA");
-    console.log(e.target);
-
+  sidebarScrollUp () {
     this.setState({
-      a: "Default state"
+      stadium:"AAA"
+    });
+
+    window.scroll({
+      top: 100,
+      behavior: 'smooth'
+    });
+  }
+
+  sidebarScrollDown () {
+    this.setState({
+      stadium:"BBB"
+    });
+    
+    window.scroll({
+      bottom: 100,
+      behavior: 'smooth'
     });
   }
 
   render() {
     return (
-      <div className="App">
+      <div className="App" >
         <div className="sidebar">
-          <SidebarArrow />
+          <SidebarArrow onClick={this.sidebarScrollUp}></SidebarArrow>
+          <div className="state" >{this.state.stadium} </div>
           <div className="sidebar-main hideScrollBar">
             {
               rawData.matches.map(
-                match => <MatchThumbnail data={match} onClick={(e) => this.selectMatch(e)} ></MatchThumbnail>
+                (match, index) => <MatchThumbnail data={match} key={index} onClick={this.sidebarScroll}></MatchThumbnail>
               )
             }
           </div>
-          <SidebarArrow />
+          <SidebarArrow onClick={this.sidebarScrollDown}></SidebarArrow>
         </div>
         <div className="main">
           <MatchHeader />
