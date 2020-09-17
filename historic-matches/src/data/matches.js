@@ -38,128 +38,218 @@ export const rawData =
                         {
                             "name": "Quim",
                             "number": 12,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penalties": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": false
                         },
                         {
                             "name": "Nélson",
                             "number": 22,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
+                            "goals": 0,
+                            "assists": 1,
+                            "ownGoals": 0,
+                            "penalties": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": false
                         },
                         {
                             "name": "Luisão",
                             "number": 4,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penalties": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": false
                         },
                         {
                             "name": "Ricardo Rocha",
                             "number": 33,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penalties": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": false
                         },
                         {
                             "name": "Miguelito",
                             "number": 11,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penalties": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": false
                         },
                         {
                             "name": "Petit",
                             "number": 6,
-                            "bench": false,
-                            "sub": true,
-                            "red_card": false
+                            "goals": 1,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penalties": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": true
                         },
                         {
                             "name": "Kostas Katsouranis",
                             "number": 8,
-                            "bench": false,
-                            "sub": true,
-                            "red_card": false
+                            "goals": 1,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penalties": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": true
                         },
                         {
                             "name": "Nuno Assis",
                             "number": 25,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penalties": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": false
                         },
                         {
                             "name": "Nuno Gomes",
                             "number": 21,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penalties": 0,
+                            "yellowCard": true,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": false
                         },
                         {
                             "name": "Fabrizio Miccoli",
                             "number": 30,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
+                            "goals": 0,
+                            "assists": 1,
+                            "ownGoals": 0,
+                            "penalties": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": false
                         },
                         {
                             "name": "Simão Sabrosa",
                             "number": 20,
-                            "bench": false,
-                            "sub": true,
-                            "red_card": false
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penalties": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": true
                         },
                         {
                             "name": "Marcelo Moretto",
                             "number": 31,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penalties": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": false
                         },
                         {
                             "name": "Anderson Beraldo",
                             "number": 3,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penalties": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": false
                         },
                         {
                             "name": "Alcides",
                             "number": 13,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penalties": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": false
                         },
                         {
                             "name": "Andrei Karyaka",
                             "number": 19,
-                            "bench": true,
-                            "sub": true,
-                            "red_card": false
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penalties": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": true,
+                            "subOut": false
                         },
                         {
                             "name": "Georgios Karagounis",
                             "number": 26,
-                            "bench": true,
-                            "sub": true,
-                            "red_card": false
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penalties": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": true,
+                            "subOut": false
                         },
                         {
                             "name": "Paulo Jorge",
                             "number": 15,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penalties": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": false
                         },
                         {
                             "name": "Pedro Mantorras",
                             "number": 9,
-                            "bench": true,
-                            "sub": true,
-                            "red_card": false
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penalties": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": true,
+                            "subOut": false
                         }
                     ]
                 },
@@ -171,128 +261,218 @@ export const rawData =
                         {
                             "name": "Alê",
                             "number": 88,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penalties": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": false
                         },
                         {
                             "name": "Buba",
                             "number": 3,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": true
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penalties": 0,
+                            "yellowCard": true,
+                            "redCard": true,
+                            "subIn": false,
+                            "subOut": false
                         },
                         {
                             "name": "Ricardo",
                             "number": 19,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 1,
+                            "penalties": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": false
                         },
                         {
                             "name": "Marco Couto",
                             "number": 67,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penalties": 0,
+                            "yellowCard": true,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": false
                         },
                         {
                             "name": "Tininho",
                             "number": 20,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penalties": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": false
                         },
                         {
                             "name": "Mário Camora",
                             "number": 45,
-                            "bench": false,
-                            "sub": true,
-                            "red_card": false
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penalties": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": true
                         },
                         {
                             "name": "André Leão",
                             "number": 8,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penalties": 0,
+                            "yellowCard": true,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": false
                         },
                         {
                             "name": "Luciano Ratinho",
                             "number": 10,
-                            "bench": false,
-                            "sub": true,
-                            "red_card": false
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penalties": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": true
                         },
                         {
                             "name": "Rui Lima",
                             "number": 23,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penalties": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": false
                         },
                         {
                             "name": "Torrão",
                             "number": 18,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penalties": 0,
+                            "yellowCard": true,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": false
                         },
                         {
                             "name": "Jorge Leitão",
                             "number": 27,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penalties": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": false
                         },
                         {
                             "name": "Daniel",
                             "number": 50,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penalties": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": false
                         },
                         {
                             "name": "Jorge Vidigal",
                             "number": 77,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penalties": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": false
                         },
                         {
                             "name": "Emerson",
                             "number": 26,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penalties": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": false
                         },
                         {
                             "name": "Jorge Silva",
                             "number": 36,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penalties": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": false
                         },
                         {
                             "name": "Mário Jardel",
                             "number": 16,
-                            "bench": true,
-                            "sub": true,
-                            "red_card": false
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penalties": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": true,
+                            "subOut": false
                         },
                         {
                             "name": "Artur",
                             "number": 7,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penalties": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": false
                         },
                         {
                             "name": "Wegno",
                             "number": 29,
-                            "bench": true,
-                            "sub": true,
-                            "red_card": false
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penalties": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": true,
+                            "subOut": false
                         }
                     ]
                 }
@@ -334,126 +514,126 @@ export const rawData =
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         }
                     ]
                 },
@@ -483,454 +663,126 @@ export const rawData =
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
-                        }
-                    ]
-                }
-            ],
-            "competition": {
-                "name": "",
-                "logo": ""
-            },
-            "goals": [
-                {
-                    "team": 0,
-                    "scorer": "",
-                    "assist": "",
-                    "penalty": false,
-                    "own_goal": false,
-                    "minute": 0
-                },
-                {
-                    "team": 0,
-                    "scorer": "",
-                    "assist": "",
-                    "penalty": false,
-                    "own_goal": false,
-                    "minute": 0
-                }
-            ]
-        },
-        {
-            "match_id": 2,
-            "season":"20/",
-            "date": "//",
-            "stadium": "",
-            "teams": [
-                {
-                    "name": "",
-                    "logo": "",
-                    "manager": "",
-                    "goals": [
-                        {
-                            "scorer": "",
-                            "assist": "",
-                            "penalty": false,
-                            "own_goal": false,
-                            "minute": 0
-                        },
-                        {
-                            "scorer": "",
-                            "assist": "",
-                            "penalty": false,
-                            "own_goal": false,
-                            "minute": 0
-                        }
-                    ],
-                    "squad": [
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
-                        }
-                    ]
-                },
-                {
-                    "name": "",
-                    "logo": "",
-                    "manager": "",
-                    "goals": [
-                        {
-                            "scorer": "",
-                            "assist": "",
-                            "penalty": false,
-                            "own_goal": false,
-                            "minute": 0
-                        },
-                        {
-                            "scorer": "",
-                            "assist": "",
-                            "penalty": false,
-                            "own_goal": false,
-                            "minute": 0
-                        }
-                    ],
-                    "squad": [
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
+                            "redCard": false
                         }
                     ]
                 }
@@ -990,126 +842,126 @@ export const rawData =
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         }
                     ]
                 },
@@ -1139,454 +991,126 @@ export const rawData =
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
-                        }
-                    ]
-                }
-            ],
-            "competition": {
-                "name": "",
-                "logo": ""
-            },
-            "goals": [
-                {
-                    "team": 0,
-                    "scorer": "",
-                    "assist": "",
-                    "penalty": false,
-                    "own_goal": false,
-                    "minute": 0
-                },
-                {
-                    "team": 0,
-                    "scorer": "",
-                    "assist": "",
-                    "penalty": false,
-                    "own_goal": false,
-                    "minute": 0
-                }
-            ]
-        },
-        {
-            "match_id": 2,
-            "season":"20/",
-            "date": "//",
-            "stadium": "",
-            "teams": [
-                {
-                    "name": "",
-                    "logo": "",
-                    "manager": "",
-                    "goals": [
-                        {
-                            "scorer": "",
-                            "assist": "",
-                            "penalty": false,
-                            "own_goal": false,
-                            "minute": 0
-                        },
-                        {
-                            "scorer": "",
-                            "assist": "",
-                            "penalty": false,
-                            "own_goal": false,
-                            "minute": 0
-                        }
-                    ],
-                    "squad": [
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
-                        }
-                    ]
-                },
-                {
-                    "name": "",
-                    "logo": "",
-                    "manager": "",
-                    "goals": [
-                        {
-                            "scorer": "",
-                            "assist": "",
-                            "penalty": false,
-                            "own_goal": false,
-                            "minute": 0
-                        },
-                        {
-                            "scorer": "",
-                            "assist": "",
-                            "penalty": false,
-                            "own_goal": false,
-                            "minute": 0
-                        }
-                    ],
-                    "squad": [
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": false,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
-                        },
-                        {
-                            "name": "",
-                            "number": 0,
-                            "bench": true,
-                            "sub": false,
-                            "red_card": false
+                            "redCard": false
                         }
                     ]
                 }
@@ -1646,126 +1170,126 @@ export const rawData =
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         }
                     ]
                 },
@@ -1795,126 +1319,782 @@ export const rawData =
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": false,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
                         },
                         {
                             "name": "",
                             "number": 0,
                             "bench": true,
                             "sub": false,
-                            "red_card": false
+                            "redCard": false
+                        }
+                    ]
+                }
+            ],
+            "competition": {
+                "name": "",
+                "logo": ""
+            },
+            "goals": [
+                {
+                    "team": 0,
+                    "scorer": "",
+                    "assist": "",
+                    "penalty": false,
+                    "own_goal": false,
+                    "minute": 0
+                },
+                {
+                    "team": 0,
+                    "scorer": "",
+                    "assist": "",
+                    "penalty": false,
+                    "own_goal": false,
+                    "minute": 0
+                }
+            ]
+        },
+        {
+            "match_id": 2,
+            "season":"20/",
+            "date": "//",
+            "stadium": "",
+            "teams": [
+                {
+                    "name": "",
+                    "logo": "",
+                    "manager": "",
+                    "goals": [
+                        {
+                            "scorer": "",
+                            "assist": "",
+                            "penalty": false,
+                            "own_goal": false,
+                            "minute": 0
+                        },
+                        {
+                            "scorer": "",
+                            "assist": "",
+                            "penalty": false,
+                            "own_goal": false,
+                            "minute": 0
+                        }
+                    ],
+                    "squad": [
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": true,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": true,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": true,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": true,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": true,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": true,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": true,
+                            "sub": false,
+                            "redCard": false
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "logo": "",
+                    "manager": "",
+                    "goals": [
+                        {
+                            "scorer": "",
+                            "assist": "",
+                            "penalty": false,
+                            "own_goal": false,
+                            "minute": 0
+                        },
+                        {
+                            "scorer": "",
+                            "assist": "",
+                            "penalty": false,
+                            "own_goal": false,
+                            "minute": 0
+                        }
+                    ],
+                    "squad": [
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": true,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": true,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": true,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": true,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": true,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": true,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": true,
+                            "sub": false,
+                            "redCard": false
+                        }
+                    ]
+                }
+            ],
+            "competition": {
+                "name": "",
+                "logo": ""
+            },
+            "goals": [
+                {
+                    "team": 0,
+                    "scorer": "",
+                    "assist": "",
+                    "penalty": false,
+                    "own_goal": false,
+                    "minute": 0
+                },
+                {
+                    "team": 0,
+                    "scorer": "",
+                    "assist": "",
+                    "penalty": false,
+                    "own_goal": false,
+                    "minute": 0
+                }
+            ]
+        },
+        {
+            "match_id": 2,
+            "season":"20/",
+            "date": "//",
+            "stadium": "",
+            "teams": [
+                {
+                    "name": "",
+                    "logo": "",
+                    "manager": "",
+                    "goals": [
+                        {
+                            "scorer": "",
+                            "assist": "",
+                            "penalty": false,
+                            "own_goal": false,
+                            "minute": 0
+                        },
+                        {
+                            "scorer": "",
+                            "assist": "",
+                            "penalty": false,
+                            "own_goal": false,
+                            "minute": 0
+                        }
+                    ],
+                    "squad": [
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": true,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": true,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": true,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": true,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": true,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": true,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": true,
+                            "sub": false,
+                            "redCard": false
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "logo": "",
+                    "manager": "",
+                    "goals": [
+                        {
+                            "scorer": "",
+                            "assist": "",
+                            "penalty": false,
+                            "own_goal": false,
+                            "minute": 0
+                        },
+                        {
+                            "scorer": "",
+                            "assist": "",
+                            "penalty": false,
+                            "own_goal": false,
+                            "minute": 0
+                        }
+                    ],
+                    "squad": [
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": false,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": true,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": true,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": true,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": true,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": true,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": true,
+                            "sub": false,
+                            "redCard": false
+                        },
+                        {
+                            "name": "",
+                            "number": 0,
+                            "bench": true,
+                            "sub": false,
+                            "redCard": false
                         }
                     ]
                 }

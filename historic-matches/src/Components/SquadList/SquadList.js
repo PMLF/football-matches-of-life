@@ -23,18 +23,37 @@ class SquadList extends Component {
                                 <p className="player-name">{player.name}</p>
                                 <p className="player-icons">
                                     {
-                                        player.red_card
+                                        player.yellowCard
+                                            ? <img src={yellowCard} alt="Yellow card icon" />
+                                            : ''
+                                    }
+                                    {
+                                        player.redCard
                                             ? <img src={redCard} alt="Red card icon" />
                                             : ''
                                     }
-                                    <img src={goal} alt="Goal icon" />
-                                    <img src={assist} alt="Assist icon" />
-                                    <img src={ownGoal} alt="Own goal icon" />
-                                    <img src={penalty} alt="Penalty icon" />
-                                    
-                                    <img src={yellowCard} alt="Yellow card icon" />
-                                    <img src={subbedIn} alt="Subbed in icon" />
-                                    <img src={subbedOut} alt="Subbed out icon" />
+                                    {
+                                        player.subIn
+                                            ? <img src={subbedIn} alt="Subbed in icon" />
+                                            : ''
+                                    }
+                                    {
+                                        player.subOut
+                                            ? <img src={subbedOut} alt="Subbed out icon" />
+                                            : ''
+                                    }
+                                    {
+                                        [...Array(player.assists)].map((e, i) => <img src={assist} alt="Assist icon" key={i} />)
+                                    }
+                                    {
+                                        [...Array(player.goals)].map((e, i) => <img src={goal} alt="Goal icon" key={i} />)
+                                    }
+                                    {
+                                        [...Array(player.ownGoals)].map((e, i) => <img src={ownGoal} alt="Own goal icon" key={i} />)
+                                    }
+                                    {
+                                        [...Array(player.penalties)].map((e, i) => <img src={penalty} alt="Penalty icon" key={i} />)
+                                    }
                                 </p>
                             </div>
                     )
