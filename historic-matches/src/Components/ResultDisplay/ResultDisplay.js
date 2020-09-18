@@ -9,7 +9,7 @@ class ResultDisplay extends Component {
     render () {
         return (
             <div className="ResultDisplay">
-                <GoalScorerList />
+                <GoalScorerList data={ this.props.data[0].goals ? this.props.data[0].goals : '' }></GoalScorerList>
                 <div className="result">
                     <p>
                         <span className="home-goals">1</span>
@@ -17,7 +17,7 @@ class ResultDisplay extends Component {
                         <span className="away-goals">0</span>
                     </p>
                 </div>
-                <GoalScorerList />
+                <GoalScorerList data={ this.props.data[1].goals ? this.props.data[1].goals : '' }></GoalScorerList>
                 <ExtraInformation />
             </div>
         );

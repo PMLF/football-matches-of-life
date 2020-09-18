@@ -56,7 +56,7 @@ class App extends Component {
           <MatchHeader data={this.state}></MatchHeader>
           <section className="match-data">
             <SquadList data={this.state.teams[0].squad}></SquadList>
-            <ResultDisplay />
+            <ResultDisplay data={this.state.teams}></ResultDisplay>
             <SquadList data={this.state.teams[1].squad}></SquadList>
           </section>
         </div>

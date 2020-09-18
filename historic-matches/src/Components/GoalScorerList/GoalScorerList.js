@@ -8,9 +8,13 @@ class GoalScorerList extends Component {
     render () {
         return (
             <div className="GoalScorerList">
-                <Goal />
-                <Goal />
-                <Goal />
+                {
+                    this.props.data 
+                        ? this.props.data.map(
+                                goal => <Goal scorer={goal.scorer} minute={goal.minute}></Goal>
+                            )
+                        : ''
+                }
             </div>
         );
     }

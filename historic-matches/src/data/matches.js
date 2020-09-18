@@ -14,21 +14,18 @@ export const rawData =
                     "goals": [
                         {
                             "scorer": "Kostas Katsouranis",
-                            "assist": "Nélson",
                             "penalty": false,
                             "own_goal": false,
                             "minute": 52
                         },
                         {
                             "scorer": "Petit",
-                            "assist": "Fabrizio Miccoli",
                             "penalty": false,
                             "own_goal": false,
                             "minute": 55
                         },
                         {
                             "scorer": "Ricardo",
-                            "assist": "",
                             "penalty": false,
                             "own_goal": true,
                             "minute": 76
@@ -391,7 +388,7 @@ export const rawData =
                             "subOut": false
                         },
                         {
-                            "name": "Daniel",
+                            "name": "Danrlei",
                             "number": 50,
                             "goals": 0,
                             "assists": 0,
