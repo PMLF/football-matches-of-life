@@ -12,9 +12,9 @@ class ResultDisplay extends Component {
                 <GoalScorerList data={ this.props.data[0].goals ? this.props.data[0].goals : '' }></GoalScorerList>
                 <div className="result">
                     <p>
-                        <span className="home-goals">1</span>
+                        <span className="home-goals">{ this.props.data[0].goals ? this.props.data[0].goals.length : 0 }</span>
                         -
-                        <span className="away-goals">0</span>
+                        <span className="away-goals">{ this.props.data[1].goals ? this.props.data[1].goals.length : 0 }</span>
                     </p>
                 </div>
                 <GoalScorerList data={ this.props.data[1].goals ? this.props.data[1].goals : '' }></GoalScorerList>
