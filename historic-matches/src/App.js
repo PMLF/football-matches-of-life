@@ -42,7 +42,7 @@ class App extends Component {
       <div className="App" >
         <div className="sidebar">
           <SidebarArrow onClick={this.sidebarScrollUp}></SidebarArrow>
-          <div className="state" >{this.state.stadium} </div>
+          <div className="state" >{this.state.stadium.name} </div>
           <div className="sidebar-main hideScrollBar">
             {
               rawData.matches.map(
@@ -56,7 +56,7 @@ class App extends Component {
           <MatchHeader data={this.state}></MatchHeader>
           <section className="match-data">
             <SquadList data={this.state.teams[0].squad}></SquadList>
-            <ResultDisplay data={this.state.teams}></ResultDisplay>
+            <ResultDisplay data={this.state}></ResultDisplay>
             <SquadList data={this.state.teams[1].squad}></SquadList>
           </section>
         </div>

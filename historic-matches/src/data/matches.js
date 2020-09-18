@@ -4,8 +4,16 @@ export const rawData =
         {
             "match_id": 1,
             "season": "2006/07",
-            "date": "2006/11/05",
-            "stadium": "Estádio da Luz",
+            "date": "6th November, 2006",
+            "stadium": {
+                "name": "Estádio da Luz",
+                "city": "Lisbon",
+                "country": "Portugal"
+            },
+            "competition": {
+                "name": "Bwin Liga",
+                "logo": require("./../images/bwinliga.png")
+            },
             "teams": [
                 {
                     "name": "SL Benfica",
@@ -473,11 +481,7 @@ export const rawData =
                         }
                     ]
                 }
-            ],
-            "competition": {
-                "name": "Bwin Liga",
-                "logo": "images/bwinliga.png"
-            }
+            ]
         },
         {
             "match_id": 2,
