@@ -11,7 +11,7 @@ class GoalScorerList extends Component {
                 {
                     this.props.data 
                         ? this.props.data.map(
-                                goal => <Goal scorer={goal.scorer} minute={goal.minute}></Goal>
+                                goal => <Goal data={goal}></Goal>
                             )
                         : ''
                 }
