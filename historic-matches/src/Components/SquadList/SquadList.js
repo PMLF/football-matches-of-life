@@ -52,7 +52,7 @@ class SquadList extends Component {
                                         [...Array(player.ownGoals)].map((e, i) => <img src={ownGoal} alt="Own goal icon" key={i} />)
                                     }
                                     {
-                                        [...Array(player.penalties)].map((e, i) => <img src={penalty} alt="Penalty icon" key={i} />)
+                                        [...Array(player.penaltiesMissed)].map((e, i) => <img src={penalty} alt="Penalty icon" key={i} />)
                                     }
                                 </p>
                             </div>
