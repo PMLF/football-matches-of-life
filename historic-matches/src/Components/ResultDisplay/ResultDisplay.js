@@ -17,7 +17,7 @@ class ResultDisplay extends Component {
                         <span className="away-goals">{ this.props.data.teams[1].goals ? this.props.data.teams[1].goals.length : 0 }</span>
                     </p>
                 </div>
-                <GoalScorerList data={ this.props.data.teams[1].goals ? this.props.data[1].goals : '' }></GoalScorerList>
+                <GoalScorerList data={ this.props.data.teams[1].goals ? this.props.data.teams[1].goals : '' }></GoalScorerList>
                 <ExtraInformation data={this.props.data}></ExtraInformation>
             </div>
         );
