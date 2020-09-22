@@ -17,8 +17,8 @@ class SquadList extends Component {
             <div className="SquadList">
                 {
                     this.props.data.map(
-                        player =>
-                            <div className="player">
+                        (player, index) =>
+                            <div key={index} className="player">
                                 <p className="player-number">{player.number}</p>
                                 <p className="player-name">{player.name}</p>
                                 <p className="player-icons">
