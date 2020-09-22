@@ -1938,7 +1938,7 @@ export const rawData =
                     ]
                 }
             ]
-        },
+        }
         /*{
             "match_id": 3,
             "season": "20/",

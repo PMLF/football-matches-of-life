@@ -10,15 +10,23 @@ import {rawData} from './data/matches';
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = rawData.matches[0];
+    this.state = { match: rawData.matches[0] };
+    this.selectMatch = this.selectMatch.bind(this);
     this.sidebarScrollUp = this.sidebarScrollUp.bind(this);
     this.sidebarScrollDown = this.sidebarScrollDown.bind(this);
   }
 
-  sidebarScrollUp () {
+  selectMatch() {
+    console.log("selectMatch");
     this.setState({
-      stadium:"AAA"
+      match: rawData[1]
     });
+  }
+
+  sidebarScrollUp () {
+    /*this.setState({
+      stadium:"AAA"
+    });*/
 
     window.scroll({
       top: 100,
@@ -27,9 +35,9 @@ class App extends Component {
   }
 
   sidebarScrollDown () {
-    this.setState({
+    /*this.setState({
       stadium:"BBB"
-    });
+    });*/
     
     window.scroll({
       bottom: 100,
@@ -42,7 +50,7 @@ class App extends Component {
       <div className="App" >
         <div className="sidebar">
           <SidebarArrow onClick={this.sidebarScrollUp}></SidebarArrow>
-          <div className="state" >{this.state.stadium.name} </div>
+          <div className="state" >{this.state.match ? this.state.match.stadium.name : "Not found"} </div>
           <div className="sidebar-main hideScrollBar">
             {
               rawData.matches.map(
@@ -53,11 +61,11 @@ class App extends Component {
           <SidebarArrow onClick={this.sidebarScrollDown}></SidebarArrow>
         </div>
         <div className="main">
-          <MatchHeader data={this.state}></MatchHeader>
+          <MatchHeader data={this.state.match}></MatchHeader>
           <section className="match-data">
-            <SquadList data={this.state.teams[0].squad}></SquadList>
-            <ResultDisplay data={this.state}></ResultDisplay>
-            <SquadList data={this.state.teams[1].squad}></SquadList>
+            <SquadList data={this.state.match.teams[0].squad}></SquadList>
+            <ResultDisplay data={this.state.match}></ResultDisplay>
+            <SquadList data={this.state.match.teams[1].squad}></SquadList>
           </section>
         </div>
       </div>
