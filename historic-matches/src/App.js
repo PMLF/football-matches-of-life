@@ -43,7 +43,6 @@ class App extends Component {
       <div className="App" >
         <div className="sidebar">
           <SidebarArrow onClick={this.sidebarScrollUp}></SidebarArrow>
-          <div className="state" >{this.state.match ? this.state.match.stadium.name : "Not found"} </div>
           <div className="sidebar-main hideScrollBar">
             {
               rawData.matches.map(
