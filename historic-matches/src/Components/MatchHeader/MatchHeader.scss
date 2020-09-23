@@ -6,19 +6,18 @@
     font-size:0;
     text-align:center;
 
-    img {
+    div {
         display:inline-block;
         height:100%;
-        margin:0 40px 0 0;
-
-        &:last-of-type {
-            margin:0 0 0 40px;
-
+        width:400px;
+        text-align:center;
+        
+        img {
+            height:100%;
+            margin:auto;
         }
     }
     .footage {
-        display:inline-block;
-        vertical-align: bottom;
         background-color:$dark-blue;
         width:120px;
         height:80px;
