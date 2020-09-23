@@ -16,18 +16,14 @@ class App extends Component {
     this.sidebarScrollDown = this.sidebarScrollDown.bind(this);
   }
 
-  selectMatch() {
-    console.log("selectMatch");
+  selectMatch (newState) {
     this.setState({
-      match: rawData[1]
+      match: newState
     });
   }
 
   sidebarScrollUp () {
-    /*this.setState({
-      stadium:"AAA"
-    });*/
-
+    console.log("up");
     window.scroll({
       top: 100,
       behavior: 'smooth'
@@ -35,10 +31,7 @@ class App extends Component {
   }
 
   sidebarScrollDown () {
-    /*this.setState({
-      stadium:"BBB"
-    });*/
-    
+    console.log("down");
     window.scroll({
       bottom: 100,
       behavior: 'smooth'
@@ -54,7 +47,7 @@ class App extends Component {
           <div className="sidebar-main hideScrollBar">
             {
               rawData.matches.map(
-                (match, index) => <MatchThumbnail data={match} key={index} onClick={this.selectMatch}></MatchThumbnail>
+                (match, index) => { return <MatchThumbnail data={match} key={index} onClick={() => this.selectMatch(match)}></MatchThumbnail> }
               )
             }
           </div>
