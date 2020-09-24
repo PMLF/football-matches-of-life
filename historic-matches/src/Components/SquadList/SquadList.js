@@ -15,12 +15,16 @@ class SquadList extends Component {
     render () {
         return (
             <div className="SquadList">
+                <div className="manager">
+                    <p className="person-id">M</p>
+                    <p className="person-name">{this.props.data.manager.name}</p>
+                </div>
                 {
-                    this.props.data.map(
+                    this.props.data.squad.map(
                         (player, index) =>
                             <div key={index} className="player">
-                                <p className="player-number">{player.number}</p>
-                                <p className="player-name">{player.name}</p>
+                                <p className="person-id">{player.number}</p>
+                                <p className="person-name">{player.name}</p>
                                 <p className="player-icons">
                                     {
                                         player.yellowCard

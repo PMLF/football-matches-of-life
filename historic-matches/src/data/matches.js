@@ -18,7 +18,9 @@ export const rawData =
                 {
                     "name": "SL Benfica",
                     "logo": require("./../images/benfica.png"),
-                    "manager": "Fernando Mendes",
+                    "manager": {
+                        "name": "Fernando Mendes"
+                    },
                     "goals": [
                         {
                             "scorer": "Kostas Katsouranis",
@@ -261,7 +263,9 @@ export const rawData =
                 {
                     "name": "SC Beira-Mar",
                     "logo": require("./../images/beiramar.png"),
-                    "manager": "Augusto Inácio",
+                    "manager": {
+                        "name": "Augusto Inácio"
+                    },
                     "squad": [
                         {
                             "name": "Alê",
@@ -500,7 +504,9 @@ export const rawData =
                 {
                     "name": "Manchester City",
                     "logo": require("./../images/mancity2012.png"),
-                    "manager": "Roberto Mancini",
+                    "manager": {
+                        "name": "Roberto Mancini"
+                    },
                     "goals": [
                         {
                             "scorer": "P.Zabaleta",
@@ -743,7 +749,9 @@ export const rawData =
                 {
                     "name": "Queens Park Rangers",
                     "logo": require("./../images/qpr.png"),
-                    "manager": "Mark Hughes",
+                    "manager": {
+                        "name": "Mark Hughes"
+                    },
                     "goals": [
                         {
                             "scorer": "Djibril Cissé",
@@ -996,7 +1004,9 @@ export const rawData =
                 {
                     "name": "FC Porto",
                     "logo": require("./../images/fcporto.png"),
-                    "manager": "Vítor Pereira",
+                    "manager": {
+                        "name": "Vítor Pereira"
+                    },
                     "goals": [
                         {
                             "scorer": "Maxi Pereira",
@@ -1233,7 +1243,10 @@ export const rawData =
                 {
                     "name": "SL Benfica",
                     "logo": require("./../images/benfica.png"),
-                    "manager": "Jorge Jesus",
+                    "manager": "",
+                    "manager": {
+                        "name": "Jorge Jesus"
+                    },
                     "goals": [
                         {
                             "scorer": "Lima",
@@ -1480,7 +1493,9 @@ export const rawData =
                 {
                     "name": "SL Benfica",
                     "logo": require("./../images/benfica.png"),
-                    "manager": "Jorge Jesus",
+                    "manager": {
+                        "name": "Jorge Jesus"
+                    },
                     "goals": [
                         {
                             "scorer": "Lima",
@@ -1717,7 +1732,9 @@ export const rawData =
                 {
                     "name": "Olhanense",
                     "logo": require("./../images/olhanense.png"),
-                    "manager": "Giuseppe Galderisi",
+                    "manager": {
+                        "name": "Giuseppe Galderisi"
+                    },
                     "squad": [
                         {
                             "name": "Vid Belec",
