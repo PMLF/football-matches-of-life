@@ -6,7 +6,7 @@
     font-size:0;
     text-align:center;
 
-    div {
+    .logo, .footage {
         display:inline-block;
         height:100%;
         width:400px;
@@ -25,6 +25,7 @@
         text-align:center;
         font-size:20px;
         padding:0 14px;
+        position:relative;
         -webkit-box-shadow: inset -6px -32px 57px -62px $grey;
         -moz-box-shadow: inset -6px -32px 57px -62px $grey;
         box-shadow: inset -6px -32px 57px -62px $grey;

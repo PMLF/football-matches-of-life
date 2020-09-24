@@ -1,0 +1,20 @@
+@import '../../scss-variables.scss';
+
+.FootageBalloon {
+    position:absolute;
+    bottom:-160px;
+    height:140px;
+    width:200px;
+    background-color:$dark-blue;
+
+    .triangle {
+        position:absolute;
+        left:50%;
+        width: 0;
+        height: 0; 
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom:solid 20px $dark-blue;
+        transform:translateY(-100%);
+    }
+}
