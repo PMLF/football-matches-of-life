@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import { faPlay } from '@fortawesome/free-solid-svg-icons'
 import './MatchHeader.scss';
 
 class MatchHeader extends Component {
@@ -10,7 +12,10 @@ class MatchHeader extends Component {
                     <img src={this.props.data.teams[0].logo} alt="Home team logo" />
                 </div>
                 <div className="footage">
-                    <p>Images</p>
+                        <FontAwesomeIcon icon={faPlay} />
+                    <p>
+                        Footage
+                    </p>
                 </div>
                 <div>
                     <img src={this.props.data.teams[1].logo} alt="Away team logo" />

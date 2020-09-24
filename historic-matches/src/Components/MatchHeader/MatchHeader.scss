@@ -20,16 +20,19 @@
     .footage {
         background-color:$dark-blue;
         width:120px;
-        height:80px;
+        height:70px;
         border-radius:12px;
         text-align:center;
+        font-size:20px;
+        padding:0 14px;
         -webkit-box-shadow: inset -6px -32px 57px -62px $grey;
         -moz-box-shadow: inset -6px -32px 57px -62px $grey;
         box-shadow: inset -6px -32px 57px -62px $grey;
         p {
-            font-size:20px;
-            line-height:80px;
+            display:inline-block;
+            line-height:70px;
             margin:0 auto;
+            margin-left:10px;
         }
     }
 }
