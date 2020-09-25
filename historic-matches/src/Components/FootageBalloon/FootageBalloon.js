@@ -9,7 +9,17 @@ class FootageBalloon extends Component {
         return (
             <div className="FootageBalloon">
                 <div className="triangle"></div>
-                <FootageThumbnail />
+                {
+                    this.props.data.teams.map(
+                        team => {
+                            return team.goals
+                                ? team.goals.map(
+                                        (goal,index) => <FootageThumbnail data={goal} key={index}></FootageThumbnail>
+                                    )
+                                : ''
+                        }
+                    )
+                }
             </div>
         );
     }

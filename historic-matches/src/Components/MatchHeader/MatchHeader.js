@@ -15,7 +15,7 @@ class MatchHeader extends Component {
                 <div className="footage">
                     <FontAwesomeIcon icon={faPlay} />
                     <p>Footage</p>
-                    <FootageBalloon />
+                    <FootageBalloon data={this.props.data}></FootageBalloon>
                 </div>
                 <div className="logo">
                     <img src={this.props.data.teams[1].logo} alt="Away team logo" />

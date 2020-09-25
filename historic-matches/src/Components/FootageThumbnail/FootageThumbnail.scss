@@ -1,7 +1,15 @@
 @import '../../scss-variables.scss';
 
 .FootageThumbnail {
+    display:inline-block;
+    border:solid 1px $white;
+    margin:0 4px;
     border-radius:12px;
-    width:100%;
+    width:200px;
     height:100%;
+    text-decoration: none;
+    color:$white;
+    font-size:40px;
+    line-height:200px;
+    
 }

@@ -2,10 +2,13 @@
 
 .FootageBalloon {
     position:absolute;
-    bottom:-160px;
-    height:140px;
-    width:200px;
+    bottom:-220px;
+    height:200px;
+    width:630px;
     background-color:$dark-blue;
+    border-radius:12px;
+    padding:10px;
+    font-size:0;
 
     .triangle {
         position:absolute;

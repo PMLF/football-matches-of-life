@@ -24,6 +24,8 @@ export const rawData =
                     "goals": [
                         {
                             "scorer": "Kostas Katsouranis",
+                            "image": require("./../images/katsouranis.jpg"),
+                            "footage": "https://abola.vsports.pt/vod/4887/m/1294/vsports/2951ec997f29e04951874e1700b82255",
                             "penalty": false,
                             "own_goal": false,
                             "minute": "52"
