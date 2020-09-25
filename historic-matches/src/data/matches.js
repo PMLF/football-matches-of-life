@@ -32,12 +32,16 @@ export const rawData =
                         },
                         {
                             "scorer": "Petit",
+                            "image": require("./../images/petit.jpg"),
+                            "footage": "https://abola.vsports.pt/vod/4886/m/1294/vsports/f967f2509d349b8627619a249ee1e581",
                             "penalty": false,
                             "own_goal": false,
                             "minute": "55"
                         },
                         {
                             "scorer": "Ricardo",
+                            "image": require("./../images/ricardo.png"),
+                            "footage": "https://abola.vsports.pt/vod/4885/m/1294/vsports/be41d18737abeee49d6243061594a6c1",
                             "penalty": false,
                             "own_goal": true,
                             "minute": "76"

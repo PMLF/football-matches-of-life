@@ -9,8 +9,8 @@ class FootageThumbnail extends Component {
     render () {
         return (
             <a className="FootageThumbnail" href={this.props.data.footage}>
-                    <FontAwesomeIcon icon={faPlay} />
-
+                <img src={this.props.data.image} alt="Goal image" />
+                <FontAwesomeIcon icon={faPlay} className="play-icon"></FontAwesomeIcon>
             </a>
         );
     }
