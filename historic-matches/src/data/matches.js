@@ -516,18 +516,24 @@ export const rawData =
                     "goals": [
                         {
                             "scorer": "P.Zabaleta",
+                            "image": require("./../images/zabaleta.jpg"),
+                            "footage": "https://www.youtube.com/watch?v=xDPDxbSh4nY",
                             "penalty": false,
                             "own_goal": false,
                             "minute": "39"
                         },
                         {
                             "scorer": "E. Dzeko",
+                            "image": require("./../images/dzeko.jpg"),
+                            "footage": "https://www.youtube.com/watch?v=Jdft82Jup2U",
                             "penalty": false,
                             "own_goal": false,
                             "minute": "90+2"
                         },
                         {
                             "scorer": "Kun Agüero",
+                            "image": require("./../images/aguero.jpg"),
+                            "footage": "https://www.youtube.com/watch?v=I3POtrCehyc",
                             "penalty": false,
                             "own_goal": false,
                             "minute": "90+4"
@@ -761,12 +767,16 @@ export const rawData =
                     "goals": [
                         {
                             "scorer": "Djibril Cissé",
+                            "image": require("./../images/cisse.jpg"),
+                            "footage": "https://twitter.com/i/status/1246829696433733633",
                             "penalty": false,
                             "own_goal": false,
                             "minute": "48"
                         },
                         {
                             "scorer": "Jamie Mackie",
+                            "image": require("./../images/mackie.jpg"),
+                            "footage": "https://www.youtube.com/watch?v=C8_aCsiL6gY",
                             "penalty": false,
                             "own_goal": false,
                             "minute": "66"
@@ -1016,12 +1026,16 @@ export const rawData =
                     "goals": [
                         {
                             "scorer": "Maxi Pereira",
+                            "image": require("./../images/maxipereira.jpg"),
+                            "footage": "https://www.vsports.pt/vsports/vod/fc-porto-maxi-pereira-24-fc-porto-1-1-sl-benfica-15061",
                             "penalty": false,
                             "own_goal": true,
                             "minute": "26"
                         },
                         {
                             "scorer": "Kelvin",
+                            "image": require("./../images/kelvin.jpg"),
+                            "footage": "https://www.vsports.pt/vsports/vod/golo-fc-porto-kelvin-92-fc-porto-2-1-sl-benfica-15070",
                             "penalty": false,
                             "own_goal": false,
                             "minute": "90+2"
@@ -1256,6 +1270,8 @@ export const rawData =
                     "goals": [
                         {
                             "scorer": "Lima",
+                            "image": require("./../images/lima.jpg"),
+                            "footage": "https://www.vsports.pt/vsports/vod/sl-benfica-lima-19-fc-porto-0-1-sl-benfica-15059",
                             "penalty": false,
                             "own_goal": false,
                             "minute": 19
@@ -1505,12 +1521,16 @@ export const rawData =
                     "goals": [
                         {
                             "scorer": "Lima",
+                            "image": require("./../images/limaolhanense1.jpg"),
+                            "footage": "https://www.vsports.pt/vsports/vod/sl-benfica-lima-57-sl-benfica-1-0-sc-olhanense-19043",
                             "penalty": false,
                             "own_goal": false,
                             "minute": 57
                         },
                         {
                             "scorer": "Lima",
+                            "image": require("./../images/limaolhanense2.jpg"),
+                            "footage": "https://www.vsports.pt/vsports/vod/sl-benfica-lima-60-sl-benfica-2-0-sc-olhanense-19046",
                             "penalty": false,
                             "own_goal": false,
                             "minute": 60
