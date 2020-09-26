@@ -39,10 +39,6 @@ class App extends Component {
     });
   }
 
-  getFootage () {
-    
-  }
-
   render () {
     return (
       <div className="App" >
@@ -58,7 +54,7 @@ class App extends Component {
           <SidebarArrow onClick={this.sidebarScrollDown}></SidebarArrow>
         </div>
         <div className="main">
-          <MatchHeader data={this.state.match} footageClick={this.getFootage}></MatchHeader>
+          <MatchHeader data={this.state.match}></MatchHeader>
           <section className="match-data">
             <SquadList data={this.state.match.teams[0]}></SquadList>
             <ResultDisplay data={this.state.match}></ResultDisplay>

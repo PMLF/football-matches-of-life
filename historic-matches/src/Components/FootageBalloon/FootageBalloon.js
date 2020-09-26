@@ -7,7 +7,7 @@ class FootageBalloon extends Component {
 
     render () {
         return (
-            <div className="FootageBalloon">
+            <div className={ this.props.show ? "FootageBalloon" : "FootageBalloon hidden"}>
                 <div className="triangle"></div>
                 {
                     this.props.data.teams.map(
