@@ -4,6 +4,9 @@
     background-color:$dark-blue;
     border-bottom:solid 2px $bg-blue;
     height:50px;
+    cursor:pointer;
+    -webkit-user-select: none;
+    user-select: none;
 
     p {
         margin:0 auto;
@@ -11,7 +14,6 @@
         color:#f1f1f1;
         font-size:40px;
         padding:10px 0;
-        cursor:default;
     }
     &:last-of-type {
         border-top:solid 2px $bg-blue;

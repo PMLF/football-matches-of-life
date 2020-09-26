@@ -18,6 +18,9 @@
         }
     }
     .footage {
+        cursor:pointer;
+        -webkit-user-select: none;
+        user-select: none;
         background-color:$dark-blue;
         width:120px;
         height:70px;
