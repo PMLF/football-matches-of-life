@@ -1263,7 +1263,6 @@ export const rawData =
                 {
                     "name": "SL Benfica",
                     "logo": require("./../images/benfica.png"),
-                    "manager": "",
                     "manager": {
                         "name": "Jorge Jesus"
                     },
