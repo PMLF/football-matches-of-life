@@ -8,12 +8,30 @@ class MatchHeader extends Component {
 
     constructor(props) {
         super(props);
-        this.state = { showFootage: false };
+        this.state = { showFootage: false, goals:[] };
         this.showFootage = this.showFootage.bind(this);
     }
 
     showFootage () {
-        console.log(this.state.showFootage);
+        let goalList = [];
+        this.props.data.teams.map(
+            team => {
+                if (team.goals) {
+                    team.goals.forEach(
+                        goal => {
+                            goalList.push(goal);
+                        }
+                    )
+                }
+            }
+        )
+
+        goalList.sort((aux1, aux2) => aux1.minute.localeCompare(aux2.minute) );
+        JSON.stringify(goalList);
+        this.setState({
+            goals:goalList
+        })
+
         this.setState(
             this.state.showFootage
                 ? { showFootage:false }
@@ -30,7 +48,7 @@ class MatchHeader extends Component {
                 <div className="footage" onClick={this.showFootage}>
                     <FontAwesomeIcon icon={faPlay} />
                     <p>Footage</p>
-                    <FootageBalloon data={this.props.data} show={this.state.showFootage}></FootageBalloon>
+                    <FootageBalloon data={this.state.goals} show={this.state.showFootage}></FootageBalloon>
                 </div>
                 <div className="logo">
                     <img src={this.props.data.teams[1].logo} alt="Away team logo" />

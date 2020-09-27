@@ -1273,7 +1273,7 @@ export const rawData =
                             "footage": "https://www.vsports.pt/vsports/vod/sl-benfica-lima-19-fc-porto-0-1-sl-benfica-15059",
                             "penalty": false,
                             "own_goal": false,
-                            "minute": 19
+                            "minute": "19"
                         }
                     ],
                     "squad": [
@@ -1524,7 +1524,7 @@ export const rawData =
                             "footage": "https://www.vsports.pt/vsports/vod/sl-benfica-lima-57-sl-benfica-1-0-sc-olhanense-19043",
                             "penalty": false,
                             "own_goal": false,
-                            "minute": 57
+                            "minute": "57"
                         },
                         {
                             "scorer": "Lima",
@@ -1532,7 +1532,7 @@ export const rawData =
                             "footage": "https://www.vsports.pt/vsports/vod/sl-benfica-lima-60-sl-benfica-2-0-sc-olhanense-19046",
                             "penalty": false,
                             "own_goal": false,
-                            "minute": 60
+                            "minute": "60"
                         }
                     ],
                     "squad": [
@@ -2004,7 +2004,7 @@ export const rawData =
                             "scorer": "",
                             "penalty": false,
                             "own_goal": false,
-                            "minute": 3
+                            "minute": "3"
                         }
                     ],
                     "squad": [
@@ -2235,7 +2235,7 @@ export const rawData =
                             "scorer": "",
                             "penalty": false,
                             "own_goal": false,
-                            "minute": 3
+                            "minute": "3"
                         }
                     ],
                     "squad": [
@@ -2482,7 +2482,7 @@ export const rawData =
                             "scorer": "",
                             "penalty": false,
                             "own_goal": false,
-                            "minute": 3
+                            "minute": "3"
                         }
                     ],
                     "squad": [
@@ -2713,7 +2713,7 @@ export const rawData =
                             "scorer": "",
                             "penalty": false,
                             "own_goal": false,
-                            "minute": 3
+                            "minute": "3"
                         }
                     ],
                     "squad": [

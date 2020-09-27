@@ -10,14 +10,8 @@ class FootageBalloon extends Component {
             <div className={ this.props.show ? "FootageBalloon" : "FootageBalloon hidden"}>
                 <div className="triangle"></div>
                 {
-                    this.props.data.teams.map(
-                        team => {
-                            return team.goals
-                                ? team.goals.map(
-                                        (goal,index) => <FootageThumbnail data={goal} key={index}></FootageThumbnail>
-                                    )
-                                : ''
-                        }
+                    this.props.data.map(
+                        (goal,index) => <FootageThumbnail data={goal} key={index}></FootageThumbnail>
                     )
                 }
             </div>
