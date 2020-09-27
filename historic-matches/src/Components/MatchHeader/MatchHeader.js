@@ -12,7 +12,7 @@ class MatchHeader extends Component {
         this.showFootage = this.showFootage.bind(this);
     }
 
-    showFootage () {
+    orderGoals () {
         let goalList = [];
         this.props.data.teams.map(
             team => {
@@ -28,8 +28,12 @@ class MatchHeader extends Component {
 
         goalList.sort((aux1, aux2) => aux1.minute.localeCompare(aux2.minute) );
         JSON.stringify(goalList);
+        return goalList;
+    }
+
+    showFootage () {
         this.setState({
-            goals:goalList
+            goals:this.orderGoals()
         })
 
         this.setState(
