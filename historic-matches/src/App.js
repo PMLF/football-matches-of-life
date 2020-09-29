@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import './App.scss';
 import MatchThumbnail from './Components/MatchThumbnail/MatchThumbnail';
-import SidebarArrow from './Components/SidebarArrow/SidebarArrow';
 import MatchHeader from './Components/MatchHeader/MatchHeader';
 import SquadList from './Components/SquadList/SquadList';
 import ResultDisplay from './Components/ResultDisplay/ResultDisplay';
@@ -12,8 +11,6 @@ class App extends Component {
     super(props);
     this.state = { match: rawData.matches[0], activeThumbnail:0 };
     this.selectMatch = this.selectMatch.bind(this);
-    this.sidebarScrollUp = this.sidebarScrollUp.bind(this);
-    this.sidebarScrollDown = this.sidebarScrollDown.bind(this);
   }
 
   selectMatch (newState, index) {
@@ -23,27 +20,10 @@ class App extends Component {
     });
   }
 
-  sidebarScrollUp () {
-    console.log("up");
-    window.scroll({
-      top: 100,
-      behavior: 'smooth'
-    });
-  }
-
-  sidebarScrollDown () {
-    console.log("down");
-    window.scroll({
-      bottom: 100,
-      behavior: 'smooth'
-    });
-  }
-
   render () {
     return (
       <div className="App" >
         <div className="sidebar">
-          <SidebarArrow onClick={this.sidebarScrollUp}></SidebarArrow>
           <div className="sidebar-main hideScrollBar">
             {
               rawData.matches.map(
@@ -51,7 +31,6 @@ class App extends Component {
               )
             }
           </div>
-          <SidebarArrow onClick={this.sidebarScrollDown}></SidebarArrow>
         </div>
         <div className="main">
           <MatchHeader data={this.state.match}></MatchHeader>
