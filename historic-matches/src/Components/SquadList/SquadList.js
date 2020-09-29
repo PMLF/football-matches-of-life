@@ -17,7 +17,7 @@ class SquadList extends Component {
             <div className="SquadList">
                 <div className="manager">
                     <p className="person-id">M</p>
-                    <p className="person-name">{this.props.data.manager.name}</p>
+                    <p className="person-name">{this.props.data.manager}</p>
                 </div>
                 {
                     this.props.data.squad.map(
