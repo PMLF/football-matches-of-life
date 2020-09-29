@@ -15,6 +15,7 @@ class MatchHeader extends Component {
     orderGoals () {
         let goalList = [];
         this.props.data.teams.map(
+            // eslint-disable-next-line
             team => {
                 if (team.goals) {
                     team.goals.forEach(
