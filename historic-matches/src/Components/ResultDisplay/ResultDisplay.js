@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import "./ResultDisplay.scss";
 import GoalScorerList from "../GoalScorerList/GoalScorerList";
+import PenaltiesList from "../PenaltiesList/PenaltiesList";
 import ExtraInformation from "../ExtraInformation/ExtraInformation";
 
 class ResultDisplay extends Component {
@@ -18,6 +19,14 @@ class ResultDisplay extends Component {
                     </p>
                 </div>
                 <GoalScorerList data={ this.props.data.teams[1].goals }></GoalScorerList>
+                {
+                    this.props.data.teams[0].penalties && this.props.data.teams[1].penalties
+                        ? <div className="penalties">
+                            <PenaltiesList data={this.props.data.teams[0].penalties}></PenaltiesList>
+                            <PenaltiesList data={this.props.data.teams[1].penalties}></PenaltiesList>
+                          </div>
+                        : ''
+                }
                 <ExtraInformation data={this.props.data}></ExtraInformation>
             </div>
         );

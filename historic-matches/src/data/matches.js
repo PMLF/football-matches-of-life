@@ -3063,30 +3063,28 @@ export const rawData =
                             "penalty": false,
                             "own_goal": false,
                             "minute": "19"
+                        }
+                    ],
+                    "penalties": [
+                        {
+                            "taker": "João Tarzan",
+                            "scored":true
                         },
                         {
-                            "scorer": "Vítor Rodrigues",
-                            "penalty": true,
-                            "own_goal": false,
-                            "minute": "P"
+                            "taker": "Diogo Clemente",
+                            "scored":true
                         },
                         {
-                            "scorer": "Diogo Clemente",
-                            "penalty": true,
-                            "own_goal": false,
-                            "minute": "P"
+                            "taker": "Alexandre Cruz",
+                            "scored":true
                         },
                         {
-                            "scorer": "Alexandre Cruz",
-                            "penalty": true,
-                            "own_goal": false,
-                            "minute": "P"
+                            "taker": "Nuno Januário",
+                            "scored":false
                         },
                         {
-                            "scorer": "André Simões",
-                            "penalty": true,
-                            "own_goal": false,
-                            "minute": "P"
+                            "taker": "André Simões",
+                            "scored":true
                         }
                     ],
                     "squad": [
@@ -3318,18 +3316,24 @@ export const rawData =
                             "penalty": false,
                             "own_goal": false,
                             "minute": "68"
+                        }
+                    ],
+                    "penalties": [,
+                        {
+                            "taker": "Nélson Pedroso",
+                            "scored":false
                         },
                         {
-                            "scorer": "Hwang Mun-Ki",
-                            "penalty": true,
-                            "own_goal": false,
-                            "minute": "P"
+                            "taker": "Chiquinho",
+                            "scored":false
                         },
                         {
-                            "scorer": "Harramiz",
-                            "penalty": true,
-                            "own_goal": false,
-                            "minute": "P"
+                            "taker": "Hwang Mun-Ki",
+                            "scored":true
+                        },
+                        {
+                            "taker": "Harramiz",
+                            "scored":true
                         }
                     ],
                     "squad": [

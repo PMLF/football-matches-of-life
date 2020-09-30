@@ -1,0 +1,42 @@
+@import '../../scss-variables.scss';
+
+.PenaltiesList {
+    display:inline-block;
+    width:calc(50% - 20px);
+    text-align:right;
+    margin-bottom:20px;
+    vertical-align: top;
+
+    &:last-of-type {
+        text-align:left;
+        margin-left:40px;
+
+        div {
+            flex-direction:row-reverse;
+        }
+    }
+    div {
+        height:26px;
+        color:$white;
+        font-size:18px;
+        display:flex;
+        margin:0 12px 0 0;
+        justify-content: space-between;
+
+        p {
+            display:inline-block;
+            margin:0 0 0 12px;
+            line-height:26px;
+        }
+        .taker {
+            font-family: $main;
+        }
+        .scored {
+
+
+            img {
+                height:18px;
+            }
+        }
+    }
+}
