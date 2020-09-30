@@ -11,7 +11,9 @@ class FootageBalloon extends Component {
                 <div className="triangle"></div>
                 {
                     this.props.data.map(
-                        (goal,index) => <FootageThumbnail data={goal} key={index}></FootageThumbnail>
+                        (goal,index) => goal.footage
+                                            ? <FootageThumbnail data={goal} key={index}></FootageThumbnail>
+                                            : ''
                     )
                 }
             </div>

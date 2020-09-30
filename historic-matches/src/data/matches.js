@@ -3060,6 +3060,8 @@ export const rawData =
                     "goals": [
                         {
                             "scorer": "João Tarzan",
+                            "image": require("./../images/tarzan.jpg"),
+                            "footage": "https://www.facebook.com/Canal11/videos/1999211623676467",
                             "penalty": false,
                             "own_goal": false,
                             "minute": "19"
