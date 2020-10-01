@@ -3320,7 +3320,7 @@ export const rawData =
                             "minute": "68"
                         }
                     ],
-                    "penalties": [,
+                    "penalties": [
                         {
                             "taker": "Nélson Pedroso",
                             "scored":false
