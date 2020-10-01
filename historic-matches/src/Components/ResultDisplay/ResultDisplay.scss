@@ -35,5 +35,12 @@
     .penalties {
         width:100%;
         font-size:0;
+
+        .penalties-title {
+            font-size:18px;
+            text-align:center;
+            margin:10px 0;
+            font-family:$main;
+        }
     }
 }

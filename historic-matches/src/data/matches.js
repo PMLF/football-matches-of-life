@@ -3559,36 +3559,38 @@ export const rawData =
                 }
             ]
         },
-        /*{
-            "match_id": 3,
-            "season": "20/",
-            "date": "th M, 20",
+        {
+            "match_id": 8,
+            "season": "2017/18",
+            "date": "28th February, 2018",
             "stadium": {
-                "name": "",
-                "city": "",
-                "country": ""
+                "name": "Estádio do Clube Desportivo das Aves",
+                "city": "Vila das Aves",
+                "country": "Portugal"
             },
             "competition": {
-                "name": "",
-                "logo": require("./../images/ .png")
+                "name": "Taça de Portugal",
+                "logo": require("./../images/taçaportugal.png")
             },
             "teams": [
                 {
-                    "name": "",
-                    "logo": require("./../images/.png"),
-                    "manager": "",
+                    "name": "Desportivo das Aves",
+                    "logo": require("./../images/aves.png"),
+                    "manager": "José Mota",
                     "goals": [
                         {
-                            "scorer": "",
-                            "penalty": false,
+                            "scorer": "Nildo Petrolina",
+                            "image": require("./../images/nildopetrolina.jpg"),
+                            "footage":"https://videos.sapo.pt/gOdY4DKGASoZPJKr18Gt",
+                            "penalty": true,
                             "own_goal": false,
-                            "minute": "3"
+                            "minute": "32"
                         }
                     ],
                     "squad": [
                         {
-                            "name": "",
-                            "number": 5,
+                            "name": "Quim",
+                            "number": 1,
                             "goals": 0,
                             "assists": 0,
                             "ownGoals": 0,
@@ -3599,8 +3601,44 @@ export const rawData =
                             "subOut": false
                         },
                         {
-                            "name": "",
-                            "number": 5,
+                            "name": "Rodrigo Soares",
+                            "number": 2,
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penaltiesMissed": 0,
+                            "yellowCard": true,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": false
+                        },
+                        {
+                            "name": "Carlos Ponck",
+                            "number": 26,
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penaltiesMissed": 0,
+                            "yellowCard": true,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": false
+                        },
+                        {
+                            "name": "Diego Galo",
+                            "number": 44,
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penaltiesMissed": 0,
+                            "yellowCard": true,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": false
+                        },
+                        {
+                            "name": "Nélson Lenho",
+                            "number": 21,
                             "goals": 0,
                             "assists": 0,
                             "ownGoals": 0,
@@ -3611,8 +3649,20 @@ export const rawData =
                             "subOut": false
                         },
                         {
-                            "name": "",
-                            "number": 5,
+                            "name": "Paulo Machado",
+                            "number": 10,
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penaltiesMissed": 1,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": true
+                        },
+                        {
+                            "name": "Cláudio Falcão",
+                            "number": 29,
                             "goals": 0,
                             "assists": 0,
                             "ownGoals": 0,
@@ -3623,8 +3673,20 @@ export const rawData =
                             "subOut": false
                         },
                         {
-                            "name": "",
-                            "number": 5,
+                            "name": "Vítor Gomes",
+                            "number": 30,
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penaltiesMissed": 0,
+                            "yellowCard": true,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": true
+                        },
+                        {
+                            "name": "Amilton Silva",
+                            "number": 23,
                             "goals": 0,
                             "assists": 0,
                             "ownGoals": 0,
@@ -3635,8 +3697,8 @@ export const rawData =
                             "subOut": false
                         },
                         {
-                            "name": "",
-                            "number": 5,
+                            "name": "Derley",
+                            "number": 33,
                             "goals": 0,
                             "assists": 0,
                             "ownGoals": 0,
@@ -3647,8 +3709,20 @@ export const rawData =
                             "subOut": false
                         },
                         {
-                            "name": "",
-                            "number": 5,
+                            "name": "Nildo Petrolina",
+                            "number": 16,
+                            "goals": 1,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penaltiesMissed": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": true
+                        },
+                        {
+                            "name": "Artur Moraes",
+                            "number": 25,
                             "goals": 0,
                             "assists": 0,
                             "ownGoals": 0,
@@ -3659,8 +3733,20 @@ export const rawData =
                             "subOut": false
                         },
                         {
-                            "name": "",
-                            "number": 5,
+                            "name": "Fernando Tissone",
+                            "number": 15,
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penaltiesMissed": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": true,
+                            "subOut": false
+                        },
+                        {
+                            "name": "Luis Fariña",
+                            "number": 11,
                             "goals": 0,
                             "assists": 0,
                             "ownGoals": 0,
@@ -3671,8 +3757,8 @@ export const rawData =
                             "subOut": false
                         },
                         {
-                            "name": "",
-                            "number": 5,
+                            "name": "Braga",
+                            "number": 19,
                             "goals": 0,
                             "assists": 0,
                             "ownGoals": 0,
@@ -3683,8 +3769,20 @@ export const rawData =
                             "subOut": false
                         },
                         {
-                            "name": "",
-                            "number": 5,
+                            "name": "Hamdou Elhouni",
+                            "number": 73,
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penaltiesMissed": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": true,
+                            "subOut": false
+                        },
+                        {
+                            "name": "Federico Falcone",
+                            "number": 20,
                             "goals": 0,
                             "assists": 0,
                             "ownGoals": 0,
@@ -3695,130 +3793,74 @@ export const rawData =
                             "subOut": false
                         },
                         {
-                            "name": "",
-                            "number": 5,
+                            "name": "Cristián Arango",
+                            "number": 99,
                             "goals": 0,
                             "assists": 0,
                             "ownGoals": 0,
                             "penaltiesMissed": 0,
                             "yellowCard": false,
                             "redCard": false,
-                            "subIn": false,
-                            "subOut": false
-                        },
-                        {
-                            "name": "",
-                            "number": 5,
-                            "goals": 0,
-                            "assists": 0,
-                            "ownGoals": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCard": false,
-                            "redCard": false,
-                            "subIn": false,
-                            "subOut": false
-                        },
-                        {
-                            "name": "",
-                            "number": 5,
-                            "goals": 0,
-                            "assists": 0,
-                            "ownGoals": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCard": false,
-                            "redCard": false,
-                            "subIn": false,
-                            "subOut": false
-                        },
-                        {
-                            "name": "",
-                            "number": 5,
-                            "goals": 0,
-                            "assists": 0,
-                            "ownGoals": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCard": false,
-                            "redCard": false,
-                            "subIn": false,
-                            "subOut": false
-                        },
-                        {
-                            "name": "",
-                            "number": 5,
-                            "goals": 0,
-                            "assists": 0,
-                            "ownGoals": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCard": false,
-                            "redCard": false,
-                            "subIn": false,
-                            "subOut": false
-                        },
-                        {
-                            "name": "",
-                            "number": 5,
-                            "goals": 0,
-                            "assists": 0,
-                            "ownGoals": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCard": false,
-                            "redCard": false,
-                            "subIn": false,
-                            "subOut": false
-                        },
-                        {
-                            "name": "",
-                            "number": 5,
-                            "goals": 0,
-                            "assists": 0,
-                            "ownGoals": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCard": false,
-                            "redCard": false,
-                            "subIn": false,
-                            "subOut": false
-                        },
-                        {
-                            "name": "",
-                            "number": 5,
-                            "goals": 0,
-                            "assists": 0,
-                            "ownGoals": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCard": false,
-                            "redCard": false,
-                            "subIn": false,
-                            "subOut": false
-                        },
-                        {
-                            "name": "",
-                            "number": 5,
-                            "goals": 0,
-                            "assists": 0,
-                            "ownGoals": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCard": false,
-                            "redCard": false,
-                            "subIn": false,
+                            "subIn": true,
                             "subOut": false
                         }
                     ]
                 },
                 {
-                    "name": "",
-                    "logo": require("./../images/.png"),
-                    "manager": "",
-                    "goals": [
-                        {
-                            "scorer": "",
-                            "penalty": false,
-                            "own_goal": false,
-                            "minute": "3"
-                        }
-                    ],
+                    "name": "Caldas SC",
+                    "logo": require("./../images/caldassc.png"),
+                    "manager": "José Vala",
                     "squad": [
                         {
-                            "name": "",
+                            "name": "Luís Paulo",
+                            "number": 1,
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penaltiesMissed": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": false
+                        },
+                        {
+                            "name": "Diogo Clemente",
+                            "number": 8,
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penaltiesMissed": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": false
+                        },
+                        {
+                            "name": "Rony Ramos",
+                            "number": 3,
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penaltiesMissed": 0,
+                            "yellowCard": true,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": false
+                        },
+                        {
+                            "name": "Thomas Militão",
+                            "number": 6,
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penaltiesMissed": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": false
+                        },
+                        {
+                            "name": "Filipe Cascão",
                             "number": 5,
                             "goals": 0,
                             "assists": 0,
@@ -3830,8 +3872,8 @@ export const rawData =
                             "subOut": false
                         },
                         {
-                            "name": "",
-                            "number": 5,
+                            "name": "Odair Souza",
+                            "number": 23,
                             "goals": 0,
                             "assists": 0,
                             "ownGoals": 0,
@@ -3842,8 +3884,20 @@ export const rawData =
                             "subOut": false
                         },
                         {
-                            "name": "",
-                            "number": 5,
+                            "name": "Felipe Ryan",
+                            "number": 70,
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penaltiesMissed": 0,
+                            "yellowCard": true,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": true
+                        },
+                        {
+                            "name": "Paulo Inácio",
+                            "number": 17,
                             "goals": 0,
                             "assists": 0,
                             "ownGoals": 0,
@@ -3854,8 +3908,44 @@ export const rawData =
                             "subOut": false
                         },
                         {
-                            "name": "",
-                            "number": 5,
+                            "name": "Alexandre Cruz",
+                            "number": 7,
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penaltiesMissed": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": true
+                        },
+                        {
+                            "name": "Pedro Emanuel",
+                            "number": 21,
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penaltiesMissed": 0,
+                            "yellowCard": false,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": true
+                        },
+                        {
+                            "name": "João Tarzan",
+                            "number": 32,
+                            "goals": 0,
+                            "assists": 0,
+                            "ownGoals": 0,
+                            "penaltiesMissed": 0,
+                            "yellowCard": true,
+                            "redCard": false,
+                            "subIn": false,
+                            "subOut": false
+                        },
+                        {
+                            "name": "Natalino Nascimento",
+                            "number": 24,
                             "goals": 0,
                             "assists": 0,
                             "ownGoals": 0,
@@ -3866,8 +3956,8 @@ export const rawData =
                             "subOut": false
                         },
                         {
-                            "name": "",
-                            "number": 5,
+                            "name": "Rui Almeida",
+                            "number": 4,
                             "goals": 0,
                             "assists": 0,
                             "ownGoals": 0,
@@ -3878,8 +3968,8 @@ export const rawData =
                             "subOut": false
                         },
                         {
-                            "name": "",
-                            "number": 5,
+                            "name": "Nuno Januário",
+                            "number": 10,
                             "goals": 0,
                             "assists": 0,
                             "ownGoals": 0,
@@ -3890,8 +3980,8 @@ export const rawData =
                             "subOut": false
                         },
                         {
-                            "name": "",
-                            "number": 5,
+                            "name": "Marcelo Santos",
+                            "number": 19,
                             "goals": 0,
                             "assists": 0,
                             "ownGoals": 0,
@@ -3902,142 +3992,46 @@ export const rawData =
                             "subOut": false
                         },
                         {
-                            "name": "",
-                            "number": 5,
+                            "name": "André Santos",
+                            "number": 88,
                             "goals": 0,
                             "assists": 0,
                             "ownGoals": 0,
                             "penaltiesMissed": 0,
                             "yellowCard": false,
                             "redCard": false,
-                            "subIn": false,
+                            "subIn": true,
                             "subOut": false
                         },
                         {
-                            "name": "",
-                            "number": 5,
+                            "name": "Bernardo Carvalho",
+                            "number": 9,
                             "goals": 0,
                             "assists": 0,
                             "ownGoals": 0,
                             "penaltiesMissed": 0,
                             "yellowCard": false,
                             "redCard": false,
-                            "subIn": false,
+                            "subIn": true,
                             "subOut": false
                         },
                         {
-                            "name": "",
-                            "number": 5,
+                            "name": "Luís Farinha",
+                            "number": 25,
                             "goals": 0,
                             "assists": 0,
                             "ownGoals": 0,
                             "penaltiesMissed": 0,
                             "yellowCard": false,
                             "redCard": false,
-                            "subIn": false,
-                            "subOut": false
-                        },
-                        {
-                            "name": "",
-                            "number": 5,
-                            "goals": 0,
-                            "assists": 0,
-                            "ownGoals": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCard": false,
-                            "redCard": false,
-                            "subIn": false,
-                            "subOut": false
-                        },
-                        {
-                            "name": "",
-                            "number": 5,
-                            "goals": 0,
-                            "assists": 0,
-                            "ownGoals": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCard": false,
-                            "redCard": false,
-                            "subIn": false,
-                            "subOut": false
-                        },
-                        {
-                            "name": "",
-                            "number": 5,
-                            "goals": 0,
-                            "assists": 0,
-                            "ownGoals": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCard": false,
-                            "redCard": false,
-                            "subIn": false,
-                            "subOut": false
-                        },
-                        {
-                            "name": "",
-                            "number": 5,
-                            "goals": 0,
-                            "assists": 0,
-                            "ownGoals": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCard": false,
-                            "redCard": false,
-                            "subIn": false,
-                            "subOut": false
-                        },
-                        {
-                            "name": "",
-                            "number": 5,
-                            "goals": 0,
-                            "assists": 0,
-                            "ownGoals": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCard": false,
-                            "redCard": false,
-                            "subIn": false,
-                            "subOut": false
-                        },
-                        {
-                            "name": "",
-                            "number": 5,
-                            "goals": 0,
-                            "assists": 0,
-                            "ownGoals": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCard": false,
-                            "redCard": false,
-                            "subIn": false,
-                            "subOut": false
-                        },
-                        {
-                            "name": "",
-                            "number": 5,
-                            "goals": 0,
-                            "assists": 0,
-                            "ownGoals": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCard": false,
-                            "redCard": false,
-                            "subIn": false,
-                            "subOut": false
-                        },
-                        {
-                            "name": "",
-                            "number": 5,
-                            "goals": 0,
-                            "assists": 0,
-                            "ownGoals": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCard": false,
-                            "redCard": false,
-                            "subIn": false,
+                            "subIn": true,
                             "subOut": false
                         }
                     ]
                 }
             ]
         },
-        {
+        /*{
             "match_id": 3,
             "season": "20/",
             "date": "th M, 20",

@@ -12,7 +12,7 @@ class PenaltiesList extends Component {
                 {
                     this.props.data.map(
                         penalty =>
-                            <div> 
+                            <div>
                                 <p className="taker">{penalty.taker}</p>
                                 <p className="scored">
                                     {

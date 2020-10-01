@@ -22,6 +22,7 @@ class ResultDisplay extends Component {
                 {
                     this.props.data.teams[0].penalties && this.props.data.teams[1].penalties
                         ? <div className="penalties">
+                            <p className="penalties-title">Penalties</p>
                             <PenaltiesList data={this.props.data.teams[0].penalties}></PenaltiesList>
                             <PenaltiesList data={this.props.data.teams[1].penalties}></PenaltiesList>
                           </div>
