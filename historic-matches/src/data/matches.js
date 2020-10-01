@@ -1506,6 +1506,8 @@ export const rawData =
                     "goals": [
                         {
                             "scorer": "Óscar Cardozo",
+                            "image": require("./../images/cardozo.jpg"),
+                            "footage": "https://www.youtube.com/watch?v=_7cu4mWvZvI",
                             "penalty": true,
                             "own_goal": false,
                             "minute": "68"
@@ -1737,12 +1739,16 @@ export const rawData =
                     "goals": [
                         {
                             "scorer": "Fernando Torres",
+                            "image": require("./../images/torres.jpg"),
+                            "footage": "https://www.youtube.com/watch?v=dYSPCVKBpcQ",
                             "penalty": false,
                             "own_goal": false,
                             "minute": "60"
                         },
                         {
                             "scorer": "Branislav Ivanovic",
+                            "image": require("./../images/ivanovic.jpg"),
+                            "footage": "https://www.youtube.com/watch?v=387nLUTde1Y",
                             "penalty": false,
                             "own_goal": false,
                             "minute": "90+3"
@@ -2470,6 +2476,8 @@ export const rawData =
                     "goals": [
                         {
                             "scorer": "Éder",
+                            "image":require("./../images/eder.jpg"),
+                            "footage":"https://www.youtube.com/watch?v=-60HcvTQU1o",
                             "penalty": false,
                             "own_goal": false,
                             "minute": "109"
@@ -4052,6 +4060,8 @@ export const rawData =
                     "goals": [
                         {
                             "scorer": "Jorge Fellipe",
+                            "image": require("./../images/jorgefellipe.jpg"),
+                            "footage": "https://www.facebook.com/watch/?ref=saved&v=10155687048521748",
                             "penalty": false,
                             "own_goal": true,
                             "minute": "55"
@@ -4283,6 +4293,8 @@ export const rawData =
                     "goals": [
                         {
                             "scorer": "Vítor Gomes",
+                            "image": require("./../images/vitorgomes.jpg"),
+                            "footage": "https://www.youtube.com/watch?v=H_ZWqa66d9g",
                             "penalty": false,
                             "own_goal": false,
                             "minute": "97"
@@ -4532,10 +4544,12 @@ export const rawData =
                 {
                     "name": "SL Benfica",
                     "logo": require("./../images/benfica.png"),
-                    "manager": "",
+                    "manager": "Bruno Lage",
                     "goals": [
                         {
                             "scorer": "Pizzi",
+                            "image": require("./../images/pizzi.jpg"),
+                            "footage": "https://www.youtube.com/watch?v=9tyRHUS84sI",
                             "penalty": false,
                             "own_goal": false,
                             "minute": "90+1"
@@ -4767,6 +4781,8 @@ export const rawData =
                     "goals": [
                         {
                             "scorer": "Fábio Abreu",
+                            "image": require("./../images/fabioabreu.jpg"),
+                            "footage": "https://www.youtube.com/watch?v=9tyRHUS84sI",
                             "penalty": false,
                             "own_goal": false,
                             "minute": "67"
